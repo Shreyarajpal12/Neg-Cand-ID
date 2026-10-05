@@ -1,0 +1,23 @@
+# credentials
+.env
+*.key
+kaggle.json
+
+# datasets, prepared tables and caches
+data/
+
+# run outputs: rules, candidates, DNS picks, per-seed results, summaries, logs
+artifacts/
+results/
+*.log
+
+# binary intermediates
+*.npz
+*.npy
+*.parquet
+*.pkl
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
